@@ -12,7 +12,7 @@ export const POST = (url, payload) => {
 }
 
 export const PUT = (url, payload) => {
-    return AxiosInstance().post(url, payload)
+    return AxiosInstance().put(url, payload)
         .then(response => response.data)
 }
 

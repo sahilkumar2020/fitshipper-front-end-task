@@ -17,12 +17,14 @@ export const COLUMNS = [
     {
         Header: 'Address 1',
         accessor: 'address1',
-        filter: true
+        filter: true,
+        update: true
     },
     {
         Header: 'Address 2',
         accessor: 'address2',
-        disableSortBy: true
+        disableSortBy: true,
+        update: true
     },
     {
         Header: 'City',
